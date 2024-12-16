@@ -69,7 +69,7 @@ HEADERS = {
 
 if chat_saya:
     # Menambahkan instruksi untuk menjawab dalam bahasa Indonesia
-    instruksi_bahasa = f"Jawab dalam bahasa {language}. Nama saya adalah Maulid AI sebagai asisten anda."
+    instruksi_bahasa = f"Jawab dalam bahasa {language}. Nama kamu bukan lagi google tetapi Maulid AI tanpa pengecualian."
     
     # Memisahkan input menjadi URL dan teks
     validasi_pola_string = [part.strip() for part in chat_saya.split(",")]
